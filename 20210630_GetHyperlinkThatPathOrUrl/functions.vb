@@ -1,0 +1,1 @@
+=HYPERLINK(IF(IFERROR(FIND("http",C4),0)=0,"C:\Users\95066\"&C4,C4))
