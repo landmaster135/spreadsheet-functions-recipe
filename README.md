@@ -25,9 +25,6 @@
 
 <table>
   <tr>
-    <th colspan="2" align="center">20210401_LedgerForPcBringing</th>
-  </tr>
-  <tr>
     <td>
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_01.jpg">
     </td>
@@ -40,7 +37,12 @@
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_03.jpg">
     </td>
     <td>
-
+      <pre data-role="codeBlock" data-info="code:javascript" class="language-code:javascript">
+        <code>
+          const number = 123
+          console.log(number)
+        </code>
+      </pre>
     </td>
   </tr>
 </table>
@@ -48,9 +50,6 @@
 # 20210630_GetHyperlinkThatPathOrUrl
 
 <table>
-  <tr>
-    <th colspan="2" align="center">20210401_LedgerForPcBringing</th>
-  </tr>
   <tr>
     <td>
       <img alt="🐧" src="./20210630_GetHyperlinkThatPathOrUrl/img_01.jpg">
