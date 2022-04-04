@@ -38,10 +38,8 @@
     </td>
     <td>
       <pre data-role="codeBlock" data-info="code:javascript" class="language-code:javascript">
-        <code>
-const number = 123
-console.log(number)
-        </code>
+        <code>const number = 123
+console.log(number)</code>
       </pre>
     </td>
   </tr>
