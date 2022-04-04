@@ -37,7 +37,7 @@
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_03.jpg">
     </td>
     <td>
-      ```visualbasic
+      ```
       =AND($L9<>"",$L9>$G9)
       =AND($L9="",$G9<>"",$G9<TODAY())
       =MOD(ROW(),2)=1
