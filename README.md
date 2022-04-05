@@ -60,6 +60,37 @@
     </td>
   </tr>
   <tr>
+    <td>
+      <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>
+=IF(
+  AND(AK3<>"",AL3<>"")
+  ,IF(
+    AND(AK3=TRUE,AL3=TRUE)
+    ,"〇"
+    ,"×"
+  )
+  ,""
+)
+      </code></pre>
+    </td>
+    <td>
+      <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>
+=IF(
+  AM3<>""
+  ,IF(
+    COUNTIF(
+      AM3
+      ,"*9999*"
+    )>0
+    ,AE3<>""
+    ,AE3=""
+  )
+  ,""
+)
+      </code></pre>
+    </td>
+  </tr>
+  <tr>
     <td colspan="2">
       <img alt="🐧" src="./20210408_TheToolPreventingMistakesForAccountOperation/img_03.jpg">
     </td>
@@ -67,8 +98,6 @@
   <tr>
     <td colspan="2">
       <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>
-=IF(AND(AK3<>"",AL3<>""),IF(AND(AK3=TRUE,AL3=TRUE),"〇","×"),"")
-=IF(AM3<>"",IF(COUNTIF(AM3,"*9999*")>0,AE3<>"",AE3=""),"")
 =IF(
   AM3<>""
   ,IF(
