@@ -39,7 +39,7 @@
     </td>
     <td>
       <a>=AND($L9<>"",$L9>$G9)<br>
-=AND($L9="",$G9<>"",$G9<TODAY())<br>
+=AND($L9="",$G9<>"",$G9&lt;TODAY())<br>
 =MOD(ROW(),2)=1<br>
 =AND($K9<>"",$K9<$F9)<br>
 =AND($K9="",$F9<>"")<br>
