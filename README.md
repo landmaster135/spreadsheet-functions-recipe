@@ -52,10 +52,10 @@
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="20%">
       <img alt="🐧" src="./20210408_TheToolPreventingMistakesForAccountOperation/img_01.jpg">
     </td>
-    <td width="50%">
+    <td width="20%">
       <img alt="🐧" src="./20210408_TheToolPreventingMistakesForAccountOperation/img_02.jpg">
     </td>
   </tr>
