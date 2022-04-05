@@ -24,20 +24,20 @@
 
 # 20210401_LedgerForPcBringing
 
-<table width="100%">
+<table>
   <tr>
-    <td>
+    <td width="50%">
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_01.jpg">
     </td>
-    <td>
+    <td width="50%">
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_02.jpg">
     </td>
   </tr>
   <tr>
-    <td>
+    <td width="50%">
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_03.jpg">
     </td>
-    <td>
+    <td width="50%">
       <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>=AND($L9<>"",$L9>$G9)
 =AND($L9="",$G9<>"",$G9&lt;TODAY())
 =MOD(ROW(),2)=1
