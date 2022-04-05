@@ -16,8 +16,8 @@
 - [20211102_GetTextBySequentialDates](#20211102_gettextbysequentialdates)
 - [20211102_GetTextByToday](#20211102_gettextbytoday)
 - [20220110_LetByteOfRemainingOfPropsiteDetailItemsList](#20220110_letbyteofremainingofpropsitedetailitemslist)
-- [20220304_getDigitsByDataTypeSFDC](#20220304_getdigitsbydatatypesfdc)
-- [20220310_add_hour_to_twitter_date](#20220310_add_hour_to_twitter_date)
+- [20220304_GetDigitsByDataTypeSfdc](#20220304_getdigitsbydatatypesfdc)
+- [20220310_AddHourToTwitterDate](#20220310_addhourtotwitterdate)
 - [20220323_AddPrefix](#20220323_addprefix)
 
 
@@ -148,25 +148,25 @@
   </tr>
 </table>
 
-# 20220304_getDigitsByDataTypeSFDC
+# 20220304_GetDigitsByDataTypeSfdc
 
 <table>
   <tr>
     <td>
-      <img alt="🐧" src="./20220304_getDigitsByDataTypeSFDC/img_01.jpg">
+      <img alt="🐧" src="./20220304_GetDigitsByDataTypeSfdc/img_01.jpg">
     </td>
     <td>
-
+      <a>=IF(LEFT(F2,4)="テキスト",<br>IFERROR(MID(F2,FIND("(",F2)+1,FIND(")",F2)-FIND("(",F2)-1),10),<br>IF(LEFT(F2,4)="日付",10,<br>IF(LEFT(F2,2)="数値",LEFT(MID(F2,FIND("(",F2)+1,FIND(")",F2)-FIND("(",F2)-1),1)<br>+RIGHT(MID(F2,FIND("(",F2)+1,FIND(")",F2)-FIND("(",F2)-1),1)<br>+1,FALSE)))</a>
     </td>
   </tr>
 </table>
 
-# 20220310_add_hour_to_twitter_date
+# 20220310_AddHourToTwitterDate
 
 <table>
   <tr>
     <td>
-      <img alt="🐧" src="./20220310_add_hour_to_twitter_date/img_01.jpg">
+      <img alt="🐧" src="./20220310_AddHourToTwitterDate/img_01.jpg">
     </td>
   </tr>
   <tr>
