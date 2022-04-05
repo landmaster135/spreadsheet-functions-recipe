@@ -156,15 +156,41 @@
       <img alt="🐧" src="./20220304_GetDigitsByDataTypeSfdc/img_01.jpg">
     </td>
     <td>
-      <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>=IF(
-        LEFT(F2,4)="テキスト",
-      IFERROR(
-        MID(F2,FIND("(",F2)+1,FIND(")",F2)-FIND("(",F2)-1),10),
-      IF(LEFT(F2,4)="日付",10,
-      IF(LEFT(F2,2)="数値",
-      LEFT(MID(F2,FIND("(",F2)+1,FIND(")",F2)-FIND("(",F2)-1),1)
-      +RIGHT(MID(F2,FIND("(",F2)+1,FIND(")",F2)-FIND("(",F2)-1),1)
-      +1,FALSE)))</code></pre>
+      <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>
+  =IF(
+    LEFT(F2,4)="テキスト"
+    ,IFERROR(
+      MID(
+        F2
+        ,FIND("(",F2)+1
+        ,FIND(")",F2)-FIND("(",F2)-1
+      )
+      ,10
+    )
+    ,IF(
+      LEFT(F2,4)="日付"
+      ,10
+      ,IF(
+        LEFT(F2,2)="数値"
+        ,LEFT(
+          MID(
+            F2
+            ,FIND("(",F2)+1
+            ,FIND(")",F2)-FIND("(",F2)-1
+          )
+          ,1
+        )+RIGHT(
+          MID(
+            F2
+            ,FIND("(",F2)+1
+            ,FIND(")",F2)-FIND("(",F2)-1
+          )
+          ,1
+        )+1
+        ,FALSE
+      )
+    )
+  )</code></pre>
     </td>
   </tr>
 </table>
