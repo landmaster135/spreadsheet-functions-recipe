@@ -68,6 +68,8 @@
     <td>
       <img alt="🐧" src="./20210630_GetHyperlinkThatPathOrUrl/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
       <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code></code></pre>
     </td>
@@ -81,6 +83,8 @@
     <td>
       <img alt="🐧" src="./20211102_GenerateDateInOrder/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
 
     </td>
@@ -94,6 +98,8 @@
     <td>
       <img alt="🐧" src="./20211102_GetTextBySequentialDates/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
 
     </td>
@@ -107,6 +113,8 @@
     <td>
       <img alt="🐧" src="./20211102_GetTextByToday/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
 
     </td>
@@ -120,6 +128,8 @@
     <td>
       <img alt="🐧" src="./20220110_LetByteOfRemainingOfPropsiteDetailItemsList/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
 
     </td>
@@ -133,6 +143,8 @@
     <td>
       <img alt="🐧" src="./20220304_getDigitsByDataTypeSFDC/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
 
     </td>
@@ -146,6 +158,8 @@
     <td>
       <img alt="🐧" src="./20220310_add_hour_to_twitter_date/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
 
     </td>
@@ -159,6 +173,8 @@
     <td>
       <img alt="🐧" src="./20220323_AddPrefix/img_01.jpg">
     </td>
+  </tr>
+  <tr>
     <td>
 
     </td>
