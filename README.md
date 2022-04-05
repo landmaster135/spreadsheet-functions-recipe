@@ -37,12 +37,12 @@
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_03.jpg">
     </td>
     <td>
-      <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>=AND($L9<>"",$L9>$G9)
+      <a>=AND($L9<>"",$L9>$G9)
 =AND($L9="",$G9<>"",$G9<TODAY())
 =MOD(ROW(),2)=1
 =AND($K9<>"",$K9<$F9)
 =AND($K9="",$F9<>"")
-=MOD(ROW(),2)=1</code></pre>
+=MOD(ROW(),2)=1</a>
     </td>
   </tr>
 </table>
@@ -56,7 +56,7 @@
       <img alt="🐧" src="./20210630_GetHyperlinkThatPathOrUrl/img_01.jpg">
     </td>
     <td>
-
+      <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code></code></pre>
     </td>
   </tr>
 </table>
