@@ -52,15 +52,15 @@
 
 <table>
   <tr>
-    <td width="20%">
+    <td>
       <img alt="🐧" src="./20210408_TheToolPreventingMistakesForAccountOperation/img_01.jpg">
     </td>
-    <td width="20%">
+    <td>
       <img alt="🐧" src="./20210408_TheToolPreventingMistakesForAccountOperation/img_02.jpg">
     </td>
   </tr>
   <tr>
-    <td colspan="2">
+    <td colspan="2" width="50%">
       <img alt="🐧" src="./20210408_TheToolPreventingMistakesForAccountOperation/img_03.jpg">
     </td>
   </tr>
