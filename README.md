@@ -10,6 +10,7 @@
 - [SpreadsheetFunctionsRecipe](#spreadsheetfunctionsrecipe)
 - [Table of Content](#table-of-content)
 - [20210401_LedgerForPcBringing](#20210401_ledgerforpcbringing)
+- [20210408_TheToolPreventingMistakesForAccountOperation](#20210408_thetoolpreventingmistakesforaccountoperation)
 - [20210630_GetHyperlinkThatPathOrUrl](#20210630_gethyperlinkthatpathorurl)
 - [20211102_GenerateDateInOrder](#20211102_generatedateinorder)
 - [20211102_GetTextBySequentialDates](#20211102_gettextbysequentialdates)
@@ -37,16 +38,28 @@
       <img alt="🐧" src="./20210401_LedgerForPcBringing/img_03.jpg">
     </td>
     <td>
-      <a>=AND($L9<>"",$L9>$G9)<br>
-=AND($L9="",$G9<>"",$G9<TODAY())<br>
-=MOD(ROW(),2)=1<br>
-=AND($K9<>"",$K9<$F9)<br>
-=AND($K9="",$F9<>"")<br>
-=MOD(ROW(),2)=1</a>
+      <pre data-role="codeBlock" data-info="code:visualbasic" class="language-code:visualbasic"><code>=AND($L9<>"",$L9>$G9)
+=AND($L9="",$G9<>"",$G9<TODAY())
+=MOD(ROW(),2)=1
+=AND($K9<>"",$K9<$F9)
+=AND($K9="",$F9<>"")
+=MOD(ROW(),2)=1</code></pre>
     </td>
   </tr>
 </table>
 
+# 20210408_TheToolPreventingMistakesForAccountOperation
+
+<table>
+  <tr>
+    <td>
+      <img alt="🐧" src="./20210408_TheToolPreventingMistakesForAccountOperation/img_01.jpg">
+    </td>
+    <td>
+
+    </td>
+  </tr>
+</table>
 
 # 20210630_GetHyperlinkThatPathOrUrl
 
