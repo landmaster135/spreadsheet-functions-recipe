@@ -68,7 +68,7 @@
     <td colspan="2">
       <a>=IF(AND(AK3<>"",AL3<>""),IF(AND(AK3=TRUE,AL3=TRUE),"〇","×"),"")<br>
 =IF(AM3<>"",IF(COUNTIF(AM3,"*9999*")>0,AE3<>"",AE3=""),"")<br>
-=IF(AM3<>"",IF(COUNTIF(AM3,"*（消○○○○○○ター）*")+COUNTIF(AM3,"*（消○○○○○○○○（○○GWAN経○○））*")>0,AF3="",<br>IF(COUNTIF(AM3,"*99996*")+COUNTIF(AM3,"*99997*")+COUNTIF(AM3,"*99998*")>0,AF3<>"",AF3=AI3)),"")</a>
+=IF(AM3<>"",IF(COUNTIF(AM3,"*（消○○○○○○ター）*")<br>+COUNTIF(AM3,"*（消○○○○○○○○（○○GWAN経○○））*")>0,AF3="",IF(COUNTIF(AM3,"*99996*")+COUNTIF(AM3,"*99997*")+COUNTIF(AM3,"*99998*")>0,AF3<>"",AF3=AI3)),"")</a>
     </td>
   </tr>
 </table>
