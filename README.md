@@ -299,3 +299,5 @@
 </table>
 
 # 20220413_ChainToOrderItems
+
+If you sort spreadsheet with this function, you may see circular reference.
