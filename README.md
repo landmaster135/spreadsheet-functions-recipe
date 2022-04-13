@@ -300,4 +300,4 @@
 
 # 20220413_ChainToOrderItems
 
-If you sort spreadsheet with this function, you may see circular reference.
+If you sort spreadsheet with this function, you may see an error of circular reference.
