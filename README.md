@@ -23,7 +23,7 @@
 
 
 
-# [20210401_LedgerForPcBringing]([./20210401_ledgerforpcbringing](https://github.com/landmaster135/spreadsheet-functions-recipe/tree/main/20210401_LedgerForPcBringing)
+# [20210401_LedgerForPcBringing](https://github.com/landmaster135/spreadsheet-functions-recipe/tree/main/20210401_LedgerForPcBringing)
 
 <table>
   <tr>
