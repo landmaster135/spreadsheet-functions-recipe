@@ -1,0 +1,1 @@
+=REPLACE(M8,1,LEN("IMG_0204"),"CartoonSier_20220606_02-02")
